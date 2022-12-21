@@ -1,0 +1,94 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {#    <link rel="shortcut icon" href="img/backend.png" type="image/x-icon">#}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,600&display=swap"
+          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!-- Monsserat 200 extralight italic-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'portfolio/css/style.css' %}">
+
+    <script src="{% static 'portfolio/js/main.js' %}"></script>
+    <title>{{ title }}</title>
+    <style>
+        body {
+            background-image: url("{% static 'portfolio/images/header-photoshop.png' %}");
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("{% static 'portfolio/images/nav-ico.ico' %}");
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav id="topNav" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand color1 fs-3" href="https://github.com/brestok-1" id="nav-text" target="_blank">
+                My portfolio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    {% for m in menu %}
+                        {% if m.title == selected %}
+                        <li class="nav-item">
+                            <p class="nav-link fs-5 selected_menu" href="{% url m.url_name %}">{{ m.title }}</p>
+                        </li>
+                        {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link a fs-5 head-hov" href="{% url m.url_name %}">{{ m.title }}</a>
+                        </li>
+                        {% endif %}
+                    {% endfor %}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-togge a head-hov f fs-5" href="#" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Contacts
+                        </a>
+                        <ul class="dropdown-menu centerDropdown">
+                            <li><a class="dropdown-item color1 head-hov" href="https://t.me/mmakkssikk" target="_blank">Telegram</a>
+                            </li>
+                            <li><a class="dropdown-item color1 head-hov" href="https://twitter.com/brestok_1"
+                                   target="_blank">Twitter</a></li>
+                            <li><a class="dropdown-item color1 head-hov"
+                                   href="mailto:6234513@gmail.com?subject=Question about services&body=Hello, Maksim."
+                                   target="_blank">Email</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+{% block content %}
+{% endblock %}
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
+

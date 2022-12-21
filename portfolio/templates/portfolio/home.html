@@ -1,0 +1,38 @@
+{% extends 'portfolio/base.html' %}
+{% block content %}
+    {% load static %}
+    <div class="section">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-sm-12 col-lg-6">
+          <img src="{% static 'portfolio/images/backend.png' %}" alt="" class="img-fluid itd_img mx-auto d-block mt-5">
+        </div>
+      </div>
+    </div>
+  </div>
+  <section>
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-sm-12 col-md-6 col-lg-5 mt-3">
+            <div class="text-center">
+            <h2 class="mb-3 mt-3 fontmain text-uppercase fs-1 main-t">Web developer</h2>
+          </div>
+        </div>
+    </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="text-center">
+            <p class="fontmain fs-4 mb-2 mt-5">Maksim Shymanouski</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-sm-12 col-lg-5">
+          <div class="text-center mb-3">
+            <p class="fontdescr fs-6 mt-1">Hello, My name is <span class="color3 itd-shadow">Maksim</span>, and I'm <span class="color3 itd-shadow">back-end</span> developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
