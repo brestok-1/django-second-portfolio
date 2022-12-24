@@ -1,5 +1,4 @@
 from django.urls import path, re_path
-
 from .views import *
 
 urlpatterns = [
@@ -7,4 +6,5 @@ urlpatterns = [
     path('', home, name='home'),
     path('about/', about, name='about'),
     path('portfolio/', MyPortfolio.as_view(), name='portfolio'),
+    path('portfolio/<slug:project_slug>', ShowProject.as_view(), name='project'),
 ]

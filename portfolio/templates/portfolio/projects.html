@@ -1,19 +1,25 @@
 {% extends 'portfolio/base.html' %}
 {% block content %}
 {% for p in projects %}
-<div class="section">
+    <div class="section">
       <div class="container">
         <div class="row gx-0 justify-content-center">
-          <div class="col-lg-7 col-sm-12 mt-2 border gx-4">
-            <p class="color4 fs-5 text-uppercase fst-italic mt-3">
-              {{ p.name }}
-            </p>
-            <p class="color4 fs-7 mt-4 fontdescr">
-                {{ p.content|linebreaks|truncatewords:30 }}
-            </p>
+          <div class="col-lg-10 col-sm-12 mt-2 border mb-4 gx-4">
+            <div class="text-center">
+              <a class="text-white fs-5 text-uppercase fst-italic mt-3 pb-2 about-hover" style="text-decoration: none;" href="#">
+                  {{ p.title }}
+              </a>
+            </div>
+            <div class="fontdescr text-white fs-7 pb-2">Time created: &#160 {{ p.time_create|date:'d.m.Y' }}</div>
+            <div class="color4 fs-7 mt-4 fontdescr">
+              {{ p.description|linebreaks|truncatewords:30 }}
+            </div>
+            <div class="text-center mb-3 mt-4">
+            <a class="btn btn-outline-danger" href="{{ p.get_absolute_url }}" role="button">Show more</a>
+            </div>
           </div>
         </div>
       </div>
-</div>
+    </div>
 {% endfor %}
 {% endblock %}

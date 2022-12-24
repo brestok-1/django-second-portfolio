@@ -40,4 +40,15 @@ class MyPortfolio(ListView):
         context['menu'] = menu
         context['selected'] = context['title'] = 'My projects'
         return context
-# class PortfolioHome(ListView):
+
+
+class ShowProject(DetailView):
+    model = MyProject
+    template_name = 'portfolio/oneproject.html'
+    slug_url_kwarg = 'project_slug'
+    context_object_name = 'p'
+
+    def get_context_data(self, **kwargs):
+        context = super(ShowProject, self).get_context_data(**kwargs)
+        context['menu'] = menu
+        return context
