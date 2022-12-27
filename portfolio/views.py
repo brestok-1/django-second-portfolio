@@ -51,4 +51,8 @@ class ShowProject(DetailView):
     def get_context_data(self, **kwargs):
         context = super(ShowProject, self).get_context_data(**kwargs)
         context['menu'] = menu
+        context['title'] = context['p']
+        context['selected'] = 'My projects'
+
+        context['images'] = ProjectImage.objects.filter(project_id=context['object'].id)
         return context
