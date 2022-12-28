@@ -32,6 +32,7 @@ def about(request):
 
 class MyPortfolio(ListView):
     model = MyProject
+    paginate_by = 3
     template_name = 'portfolio/projects.html'
     context_object_name = 'projects'
 

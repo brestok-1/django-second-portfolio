@@ -50,13 +50,13 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     {% for m in menu %}
                         {% if m.title == selected %}
-                        <li class="nav-item">
-                            <p class="nav-link fs-5 selected_menu" href="{% url m.url_name %}">{{ m.title }}</p>
-                        </li>
+                            <li class="nav-item">
+                                <p class="nav-link fs-5 selected_menu" href="{% url m.url_name %}">{{ m.title }}</p>
+                            </li>
                         {% else %}
-                        <li class="nav-item">
-                            <a class="nav-link a fs-5 head-hov" href="{% url m.url_name %}">{{ m.title }}</a>
-                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link a fs-5 head-hov" href="{% url m.url_name %}">{{ m.title }}</a>
+                            </li>
                         {% endif %}
                     {% endfor %}
                     <li class="nav-item dropdown">
@@ -81,7 +81,6 @@
 </header>
 {% block content %}
 {% endblock %}
-
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>
