@@ -22,17 +22,19 @@ def home(request):
     return render(request, 'portfolio/home.html', context=context)
 
 
-def about(request):
-    context = {'title': 'About Me',
-               'selected': 'Who am I?',
-               'menu': menu
-               }
-    return render(request, 'portfolio/about.html', context=context)
-
+class About(ListView):
+    model = MySkills
+    template_name = 'portfolio/about.html'
+    context_object_name = 'skills'
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super(About, self).get_context_data(**kwargs)
+        context['menu'] = menu
+        context['selected'] = context['title'] = "Who am I?"
+        return context
 
 class MyPortfolio(ListView):
     model = MyProject
-    paginate_by = 3
+    paginate_by = 2
     template_name = 'portfolio/projects.html'
     context_object_name = 'projects'
 
@@ -54,6 +56,5 @@ class ShowProject(DetailView):
         context['menu'] = menu
         context['title'] = context['p']
         context['selected'] = 'My projects'
-
         context['images'] = ProjectImage.objects.filter(project_id=context['object'].id)
         return context

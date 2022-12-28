@@ -74,15 +74,14 @@ WSGI_APPLICATION = 'bimkaportfolio.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgres',
-        'USER': 'postgres',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'myportfolio',
+        'USER': 'root',
         'PASSWORD': '135799',
-        'HOST': 'localhost',
-        'PORT': '8000',
+        'PORT': 3306,
+        'HOST': '127.0.0.1'
     }
 }
-
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 

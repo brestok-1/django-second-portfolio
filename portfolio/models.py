@@ -46,3 +46,13 @@ class ProjectImage(models.Model):
             filestream, 'Image', name, 'jpeg/image', sys.getsizeof(filestream), None
         )
         super(ProjectImage, self).save(*args, **kwargs)
+
+
+class MySkills(models.Model):
+    skill = models.CharField(verbose_name='Skill', max_length=255)
+
+    def __str__(self):
+        return self.skill
+    class Meta:
+        verbose_name = 'My Skill'
+        verbose_name_plural = 'My Skills'

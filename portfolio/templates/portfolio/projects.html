@@ -25,19 +25,28 @@
             </div>
         </div>
     {% endfor %}
-    <div class="section">
-      <div class="container">
-        <div class="row gx-0 justify-content-center">
-          <div class="col-lg-5 col-md-8 col-sm-12">
-              <ul class="pagination justify-content-center">
-                <li class="page-item"><a class="page-link"><span class="color">Prev</span></a></li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link active" href="#">3</a></li>
-                <li class="page-item"><a class="page-link disabled" href="#">Next</a></li>
-              </ul>
-          </div>
-      </div>
-    </div>
-    </div>
+    {% if page_obj.has_other_pages %}
+        <div class="section">
+            <div class="container mt-3">
+                <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-5 col-md-8 col-sm-12">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item"><a
+                                    class="page-link {% if not page_obj.has_previous %} disabled {% endif %}"
+                                    href="{% if page_obj.has_previous %}?page={{ page_obj.previous_page_number }}{% endif %}"><span
+                                    class="color">Prev</span></a></li>
+                            {% for p in paginator.page_range %}
+                                <li class="page-item"><a
+                                        class="page-link {% if page_obj.number == p %} active {% endif %}"
+                                        href="?page={{ p }}">{{ p }}</a></li>
+                            {% endfor %}
+                            <li class="page-item"><a
+                                    class="page-link {% if not page_obj.has_next %} disabled {% endif %}"
+                                    href="{% if page_obj.has_next %}?page={{ page_obj.next_page_number }}{% endif %}">Next</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
 {% endblock %}

@@ -72,13 +72,12 @@
                     <p class="color4 fs-5 text-uppercase fst-italic mt-3 about-hover">
                         Why me?
                     </p>
-                    <p class="color4 fs-7 mt-4 fontdescr">
+                    <p class="color4 fs-7 mt-3 fontdescr">
                         You should choose me because I have <span class="color3">strong knowledge</span> in the following areas:
                     <ul>
-                        <li class="color4 fs-7 fontdescr">Python language</li>
-                        <li class="color4 fs-7 fontdescr">Object-oriented programming</li>
-                        <li class="color4 fs-7 fontdescr">Django framework</li>
-                        <li class="color4 fs-7 fontdescr">Creating websites</li>
+                    {% for s in skills %}
+                        <li class="color4 fs-7 fontdescr">{{ s }}</li>
+                    {% endfor %}
                     </ul>
                     </p>
                     <p class="color4 fs-7 mt-4 fontdescr">

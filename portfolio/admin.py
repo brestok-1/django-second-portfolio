@@ -24,3 +24,4 @@ class ProjectImageAdmin(admin.ModelAdmin):
 
 admin.site.register(MyProject, MyProjectAdmin)
 admin.site.register(ProjectImage, ProjectImageAdmin)
+admin.site.register(MySkills)
