@@ -288,7 +288,7 @@ img {
     --bs-pagination-active-bg: var(--color3);
     --bs-pagination-active-border-color: var(--color3);
     --bs-pagination-disabled-color: rgb(226, 223, 223);
-    --bs-pagination-disabled-bg: transparent;
+    --bs-pagination-disabled-bg: #000000;
     --bs-pagination-disabled-border-color: var(--color3);
     display: flex;
     padding-left: 0;
