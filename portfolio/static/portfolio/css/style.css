@@ -7,7 +7,7 @@
 }
 
 body {
-    /*background-position: center center;*/
+    background-position: center center;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -145,8 +145,8 @@ img {
 }
 
 .itd_img {
-    max-width: 75%;
-    max-height: 75%;
+    max-width: 120vh;
+    max-height: 120vh;
 }
 
 
@@ -186,7 +186,7 @@ img {
 /* ABOUT */
 .about-main-font {
     font-family: 'Poppins', sans-serif;
-    color: wh itesmoke;
+    color: whitesmoke;
 }
 
 .border {

@@ -24,7 +24,7 @@
                                     {% for img in images %}
                                         <div class="carousel-item {% if forloop.counter0 == 0 %}active{% endif %}">
                                             <img src="{{ img.image.url }}" class="d-block w-100 mx-auto mb-5"
-                                                 alt="...">
+                                                 alt="..." oncontextmenu="return false;">
                                         </div>
                                     {% endfor %}
                                 </div>

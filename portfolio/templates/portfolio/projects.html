@@ -14,7 +14,7 @@
                         <div class="fontdescr text-white fs-7 pb-2">Time created:
                             &#160 {{ p.time_create|date:'d.m.Y' }}</div>
                         <div class="color4 fs-7 mt-4 fontdescr">
-                            {{ p.description|linebreaks|truncatewords:30 }}
+                            {{ p.description|linebreaks|truncatewords:40 }}
                         </div>
                         <div class="text-center mb-3 mt-4">
                             <a class="btn btn-outline-danger" href="{{ p.get_absolute_url }}" role="button">Show
