@@ -3,11 +3,11 @@
     <div class="section">
         <div class="container">
             <div class="row gx-0">
-                <div class="col-lg-7 col-sm-12 mt-2 border gx-4">
+                <div class="col-lg-7 col-sm-12 mt-5 border gx-4">
                     <p class="color4 fs-5 text-uppercase fst-italic mt-3 about-hover">
                         Some facts about of me
                     </p>
-                    <p class="color4 fs-7 mt-3 fontdescr">
+                    <div class="color4 fs-7 mt-3 mb-3 fontdescr">
                         My name is <span class="color3">Maksim</span>, I'm from Belarus.
                         As you might have guessed, I am a web developer. I have been
                         programming since 2020. That's when I first wrote
@@ -15,14 +15,15 @@
                         language was Python and it is still my main language. Then I tried
                         myself in different fields and programming languages. I studied
                         html and css, and at the end of 2020 I created
-                        <span class="color3">my first website</span> , then I studied
+                        <a class="color3 a head-hov" style="text-decoration: none"
+                           href="{% url 'project' 'my-first-website' %}">my first website</a> , then I studied
                         Javascript. I realized that a web developer is what my soul is
                         for, what I'm really interested in and what I'm getting at. I
                         chose back-end development as my main focus. I implement it in
                         <span class="color3">Python</span> and
                         <span class="color3">Django</span> framework. However, I can also
                         develop front-end (Yes, I wrote this and other sites by myself).
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -30,7 +31,7 @@
     <div class="section">
         <div class="container">
             <div class="row gx-0">
-                <div class="col-lg-7 col-sm-12 mt-5 border mb-4 gx-4">
+                <div class="col-lg-7 col-sm-12 mt-5 border gx-4">
                     <p class="color4 fs-5 text-uppercase fst-italic mt-3 about-hover">
                         Why did I choose Python and Django?
                     </p>
@@ -73,11 +74,12 @@
                         Why me?
                     </p>
                     <p class="color4 fs-7 mt-3 fontdescr">
-                        You should choose me because I have <span class="color3">strong knowledge</span> in the following areas:
+                        You should choose me because I have <span class="color3">strong knowledge</span> in the
+                        following areas:
                     <ul>
-                    {% for s in skills %}
-                        <li class="color4 fs-7 fontdescr">{{ s }}</li>
-                    {% endfor %}
+                        {% for s in skills %}
+                            <li class="color4 fs-7 fontdescr">{{ s }}</li>
+                        {% endfor %}
                     </ul>
                     </p>
                     <p class="color4 fs-7 mt-4 fontdescr">

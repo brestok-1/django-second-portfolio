@@ -1,7 +1,7 @@
 :root {
     --color1: #05b1b1;
     --color2: #b3b3b3;
-    --color3: #af0b0d;
+    --color3: #be0c0e;
     --color4: #d2070a;
     --color5: rgb(222, 222, 222);
 }
@@ -71,7 +71,7 @@ body {
 
 .nav-link:hover {
     text-align: center;
-    color: #af0b0d !important;
+    color: var(--color3) !important;
 }
 
 .nav-link-selected {
@@ -85,7 +85,7 @@ body {
 
 .head-hov:hover,
 .contact-hover {
-    color: #af0b0d;
+    color: var(--color3);
 }
 
 .navbar {
@@ -137,6 +137,7 @@ img {
 
 .main-t {
     letter-spacing: 10px;
+    padding-left: 10px;
 }
 
 .fontdescr {
@@ -145,8 +146,8 @@ img {
 }
 
 .itd_img {
-    max-width: 120vh;
-    max-height: 120vh;
+    max-width: 60%;
+    max-height: 60%;
 }
 
 
@@ -164,7 +165,7 @@ img {
     background: none repeat scroll 0 0 transparent;
     height: 2px;
     width: 0;
-    background: #af0b0d;
+    background: var(--color3);
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
 }
 
