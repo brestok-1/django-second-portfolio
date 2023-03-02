@@ -53,6 +53,7 @@ class MySkills(models.Model):
 
     def __str__(self):
         return self.skill
+
     class Meta:
         verbose_name = 'My Skill'
         verbose_name_plural = 'My Skills'

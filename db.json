@@ -1,0 +1,1635 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2022-12-28T22:59:41.850Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Python language",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2022-12-28T22:59:59.210Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Object-oriented programming",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2022-12-28T23:00:18.853Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Django Framework",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2022-12-28T23:00:32.156Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Django Rest Framework",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2022-12-28T23:00:40.861Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Bootstrap library",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2022-12-28T23:01:34.813Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Back-end and Full-stack development",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2022-12-28T23:02:32.872Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "First",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2022-12-28T23:02:54.670Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Second Project",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2022-12-28T23:03:32.076Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Third Project",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2022-12-28T23:04:00.138Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Fourth Project",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2022-12-28T23:04:19.537Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Fifth project",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2022-12-28T23:04:43.531Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "ProjectImage object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2022-12-28T23:04:59.471Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "ProjectImage object (2)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2022-12-28T23:05:15.039Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "ProjectImage object (3)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2022-12-30T17:28:20.385Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "First",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2022-12-30T17:28:23.963Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Fifth project",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2022-12-30T17:28:27.522Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Fourth Project",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2022-12-30T17:28:30.509Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Third Project",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2022-12-30T17:28:34.055Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Second Project",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2022-12-30T20:15:04.186Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Test project 1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2022-12-30T20:17:45.461Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Test project 1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Desription\", \"Issues\", \"Solution\", \"Time create\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2022-12-30T20:19:18.627Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Test project 2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2022-12-30T20:20:06.767Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "Test project 3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2022-12-30T20:20:52.068Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "ProjectImage object (4)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2022-12-30T20:21:08.957Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "ProjectImage object (5)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2022-12-30T20:21:24.291Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "ProjectImage object (6)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2022-12-30T20:25:01.387Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "ProjectImage object (6)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2022-12-30T20:25:12.347Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "ProjectImage object (5)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2022-12-30T20:25:21.994Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "ProjectImage object (4)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2022-12-30T20:25:31.759Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "ProjectImage object (6)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2022-12-30T21:21:17.689Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "Test project 3",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2022-12-30T21:21:23.290Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Test project 2",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2022-12-30T21:21:27.631Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Test project 1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2022-12-30T21:44:42.696Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9",
+      "object_repr": "My first website",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2022-12-30T21:45:08.812Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "7",
+      "object_repr": "ProjectImage object (7)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2022-12-30T21:45:26.109Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "8",
+      "object_repr": "ProjectImage object (8)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2022-12-30T21:45:51.254Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "9",
+      "object_repr": "ProjectImage object (9)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2022-12-30T21:46:05.948Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "10",
+      "object_repr": "ProjectImage object (10)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2022-12-31T11:52:05.265Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "My first portfolio project",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2022-12-31T14:49:12.404Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "My first portfolio project",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Desription\", \"Issues\", \"Solution\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2022-12-31T14:50:18.409Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "Jocular portfolio website",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Projects\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2022-12-31T14:50:44.498Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "11",
+      "object_repr": "ProjectImage object (11)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2022-12-31T14:51:00.533Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "12",
+      "object_repr": "ProjectImage object (12)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2022-12-31T14:51:19.374Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "13",
+      "object_repr": "ProjectImage object (13)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2022-12-31T14:51:36.132Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "14",
+      "object_repr": "ProjectImage object (14)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2022-12-31T15:24:17.069Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "11",
+      "object_repr": "Todo's webapp",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2023-01-01T10:46:49.402Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "11",
+      "object_repr": "Todo's webapp",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Issues\", \"Solution\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2023-01-01T10:47:04.339Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "15",
+      "object_repr": "ProjectImage object (15)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2023-01-01T10:47:21.679Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "16",
+      "object_repr": "ProjectImage object (16)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2023-01-01T10:47:34.671Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "17",
+      "object_repr": "ProjectImage object (17)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2023-01-01T10:47:53.884Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "18",
+      "object_repr": "ProjectImage object (18)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2023-01-01T10:48:22.453Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "19",
+      "object_repr": "ProjectImage object (19)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2023-01-01T10:48:34.428Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "20",
+      "object_repr": "ProjectImage object (20)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+      "action_time": "2023-01-01T10:50:48.300Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "21",
+      "object_repr": "ProjectImage object (21)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+      "action_time": "2023-01-01T10:51:05.951Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "18",
+      "object_repr": "ProjectImage object (18)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+      "action_time": "2023-01-01T11:53:41.768Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "12",
+      "object_repr": "Famous women",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+      "action_time": "2023-01-01T11:55:21.380Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "22",
+      "object_repr": "ProjectImage object (22)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+      "action_time": "2023-01-01T11:55:33.129Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "23",
+      "object_repr": "ProjectImage object (23)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+      "action_time": "2023-01-01T11:55:45.283Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "24",
+      "object_repr": "ProjectImage object (24)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+      "action_time": "2023-01-01T11:56:11.033Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "25",
+      "object_repr": "ProjectImage object (25)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+      "action_time": "2023-01-01T11:56:21.862Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "26",
+      "object_repr": "ProjectImage object (26)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+      "action_time": "2023-01-01T11:56:36.286Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "27",
+      "object_repr": "ProjectImage object (27)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+      "action_time": "2023-01-01T11:56:45.755Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "28",
+      "object_repr": "ProjectImage object (28)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+      "action_time": "2023-01-01T11:56:55.764Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "29",
+      "object_repr": "ProjectImage object (29)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+      "action_time": "2023-01-01T11:57:06.412Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "30",
+      "object_repr": "ProjectImage object (30)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+      "action_time": "2023-01-01T13:14:38.712Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "12",
+      "object_repr": "Famous women",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Issues\", \"Solution\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+      "action_time": "2023-01-01T13:15:10.957Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "12",
+      "object_repr": "Famous women",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Issues\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+      "action_time": "2023-01-01T21:51:39.497Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "13",
+      "object_repr": "my portfolio website",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+      "action_time": "2023-01-01T21:54:01.506Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "31",
+      "object_repr": "ProjectImage object (31)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+      "action_time": "2023-01-01T21:54:14.834Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "32",
+      "object_repr": "ProjectImage object (32)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+      "action_time": "2023-01-01T21:54:28.175Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "33",
+      "object_repr": "ProjectImage object (33)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+      "action_time": "2023-01-01T21:54:42.016Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "34",
+      "object_repr": "ProjectImage object (34)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+      "action_time": "2023-01-01T21:55:12.461Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "35",
+      "object_repr": "ProjectImage object (35)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+      "action_time": "2023-01-01T21:55:36.406Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "36",
+      "object_repr": "ProjectImage object (36)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+      "action_time": "2023-01-01T22:13:17.162Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "13",
+      "object_repr": "my portfolio website",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Desription\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+      "action_time": "2023-01-01T22:44:20.218Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "13",
+      "object_repr": "my portfolio website",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Issues\", \"Solution\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+      "action_time": "2023-01-01T22:45:32.681Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "13",
+      "object_repr": "my portfolio website",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Solution\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+      "action_time": "2023-01-01T22:45:46.182Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "12",
+      "object_repr": "Famous women",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Desription\", \"Solution\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+      "action_time": "2023-01-01T22:46:00.292Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "11",
+      "object_repr": "Todo's webapp",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Issues\", \"Solution\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+      "action_time": "2023-01-01T22:46:26.160Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "Jocular portfolio website",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Desription\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+      "action_time": "2023-01-01T22:46:41.053Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9",
+      "object_repr": "My first website",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Solution\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+      "action_time": "2023-01-02T21:12:21.837Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "31",
+      "object_repr": "ProjectImage object (31)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+      "action_time": "2023-01-04T10:13:14.271Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9",
+      "object_repr": "My first website",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Desription\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+      "action_time": "2023-01-04T10:18:53.643Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "Jocular portfolio website",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Desription\", \"Solution\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+      "action_time": "2023-01-04T10:20:50.616Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "Jocular portfolio website",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Desription\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+      "action_time": "2023-01-04T10:29:57.971Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "11",
+      "object_repr": "Todo's webapp",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Desription\", \"Issues\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+      "action_time": "2023-01-04T10:34:21.329Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "11",
+      "object_repr": "Todo's webapp",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Desription\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+      "action_time": "2023-01-04T10:38:21.387Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "11",
+      "object_repr": "Todo's webapp",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Desription\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+      "action_time": "2023-01-04T10:44:59.956Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "12",
+      "object_repr": "Famous women",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+      "action_time": "2023-01-04T10:50:01.909Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "13",
+      "object_repr": "My portfolio website",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Projects\", \"Solution\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+      "action_time": "2023-01-04T10:50:27.734Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "12",
+      "object_repr": "Famous women",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Solution\"]}}]"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$4qK96kZ3gmKk1BTSRBY3qo$v98tXPykVObylPjf+u+WTxKs1OR3BCBFWqS5YIqRCpA=",
+      "last_login": "2023-01-01T11:53:16.493Z",
+      "is_superuser": true,
+      "username": "maksim",
+      "first_name": "",
+      "last_name": "",
+      "email": "6234513@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-12-28T22:59:13.874Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "3oq0m6hf1uw18lozoa314ant0d3zns1t",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-Z0NJzxms9XqNA8iR4qRC3B0ipYD2zcx7iYjbWuPWeYlTFmehxel3S0gPbjvId2y3WdLc1mVKclfkQbu8zpmfl8P9O6jY67e2KpEu6NBYCsp5GILxaICxJA0BbclqJONBjZa9J3KBwZAGzBD0kMT7A9keN5k:1pBdgi:rmoj92uCaj9ye_e8kPHilIWV11xhh_4PLLyBhowyRq0",
+      "expire_date": "2023-01-14T15:22:20.269Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "7dpip6910zhdwee6ecn4ne7ol1myd4u9",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-Z0NJzxms9XqNA8iR4qRC3B0ipYD2zcx7iYjbWuPWeYlTFmehxel3S0gPbjvId2y3WdLc1mVKclfkQbu8zpmfl8P9O6jY67e2KpEu6NBYCsp5GILxaICxJA0BbclqJONBjZa9J3KBwZAGzBD0kMT7A9keN5k:1pBwgt:qCgfojYb80QjoUrWxqoSG9f0n69VUAV_sPBcoMBl9sQ",
+      "expire_date": "2023-01-15T11:39:47.388Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "ji9sp9dnp00t5amgu4dx5e53nfg9nem6",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-Z0NJzxms9XqNA8iR4qRC3B0ipYD2zcx7iYjbWuPWeYlTFmehxel3S0gPbjvId2y3WdLc1mVKclfkQbu8zpmfl8P9O6jY67e2KpEu6NBYCsp5GILxaICxJA0BbclqJONBjZa9J3KBwZAGzBD0kMT7A9keN5k:1pBwtw:4Nw5rI1Z56fpoCMY-Vm-80VelTd_0J0P6gfGxOGzkAY",
+      "expire_date": "2023-01-15T11:53:16.497Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "jxy5c6bzzdsk8fib2dviv2znivzk1ua4",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-Z0NJzxms9XqNA8iR4qRC3B0ipYD2zcx7iYjbWuPWeYlTFmehxel3S0gPbjvId2y3WdLc1mVKclfkQbu8zpmfl8P9O6jY67e2KpEu6NBYCsp5GILxaICxJA0BbclqJONBjZa9J3KBwZAGzBD0kMT7A9keN5k:1pBvvF:a1H_kOdyqHQDeI5ngvoCfQCqet1FLlLHMFll4fULU5w",
+      "expire_date": "2023-01-15T10:50:33.194Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "u93z2546lw3uh307tfqnx5zrhipohjsl",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-Z0NJzxms9XqNA8iR4qRC3B0ipYD2zcx7iYjbWuPWeYlTFmehxel3S0gPbjvId2y3WdLc1mVKclfkQbu8zpmfl8P9O6jY67e2KpEu6NBYCsp5GILxaICxJA0BbclqJONBjZa9J3KBwZAGzBD0kMT7A9keN5k:1pBwdo:AlcjY3ps5r9KX6KY0gI0C9dZ70USwnjBiKcuuDNe1S0",
+      "expire_date": "2023-01-15T11:36:36.516Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "vk1pqm7p9adazaqnrtib2i9v99i0neda",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-Z0NJzxms9XqNA8iR4qRC3B0ipYD2zcx7iYjbWuPWeYlTFmehxel3S0gPbjvId2y3WdLc1mVKclfkQbu8zpmfl8P9O6jY67e2KpEu6NBYCsp5GILxaICxJA0BbclqJONBjZa9J3KBwZAGzBD0kMT7A9keN5k:1pBvhg:HnZr4_GPucycrLBRJ-meQOvLlV0Y-xwmk64cT_HVn2U",
+      "expire_date": "2023-01-15T10:36:32.579Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "vp3fjdoilj5d62nuepcn0tslac0l6dln",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-Z0NJzxms9XqNA8iR4qRC3B0ipYD2zcx7iYjbWuPWeYlTFmehxel3S0gPbjvId2y3WdLc1mVKclfkQbu8zpmfl8P9O6jY67e2KpEu6NBYCsp5GILxaICxJA0BbclqJONBjZa9J3KBwZAGzBD0kMT7A9keN5k:1pAfOO:XqRIqu-AhFOGyOlR0Cv6xUef0ndCS23omiLNcmOoAD0",
+      "expire_date": "2023-01-11T22:59:24.185Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "xt5qhdeaj5prue1ri3ot1r9f1dpgm2my",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-Z0NJzxms9XqNA8iR4qRC3B0ipYD2zcx7iYjbWuPWeYlTFmehxel3S0gPbjvId2y3WdLc1mVKclfkQbu8zpmfl8P9O6jY67e2KpEu6NBYCsp5GILxaICxJA0BbclqJONBjZa9J3KBwZAGzBD0kMT7A9keN5k:1pBLlr:Z3Mo_Tl_uU7RbbSW-49MpHG69hT0S6d2UCR6mjBYTTI",
+      "expire_date": "2023-01-13T20:14:27.224Z"
+    }
+  },
+  {
+    "model": "portfolio.myproject",
+    "pk": 9,
+    "fields": {
+      "title": "My first website",
+      "slug": "my-first-website",
+      "url": "",
+      "description": "This is my first website that I talked about on \"Who am I?\" page. Yes, he looks really strange. Yes, it is adapted only to my screen size. But this is still my first project in web development.\r\n\r\nThis project is dedicated to web development, where I offer my services and different rates for creating a website. There are four pages: the Main page, the \"Economy\" tariff, the \"Standard\" tariff and the \"Super\" tariff. I also implemented a drop-down menu using JavaScript and left links to my Instagram, Telegram and phone number for feedback.\r\n\r\nI wrote this website in HTML, CSS and JS, without using any frameworks and libraries.",
+      "issues": "The main problem is that I have never created websites before. It was difficult to arrange the elements correctly, create your own classes, come up with a design, study CSS technologies and approaches. Only after completing the creation of the site, a friend told me that it was adapted only to my screen size. I tried to shrink the window and my whole project broke down.",
+      "solve": "Gradually I learned how to place elements. At that time, I hadn't studied JS yet, and I had to create a drop-down menu myself from scratch. However, the main problem that was noticed at the final stage of development (lack of adaptability) has not been solved due to lack of knowledge.",
+      "time_create": "2020-03-25T21:22:31Z"
+    }
+  },
+  {
+    "model": "portfolio.myproject",
+    "pk": 10,
+    "fields": {
+      "title": "Jocular portfolio website",
+      "slug": "my-first-portfolio-project",
+      "url": "https://brestok.pythonanywhere.com/",
+      "description": "This is my first project where I used backend. This site is more of a joke than a serious one (you can see this if you follow the link). I have implemented two applications: a blog and a home page. The main page contains humorous information about me. You can also click on my comic resume or go to the \"Blog\" application.\r\n\r\nSince this is my first project where I used Django for backend and Bootstrap for frontend, I liked it at first. I don't like looking at him right now. But this is an integral part of my programmer biography.\r\n\r\nAs I said earlier, in this project I used Django to create a backend. Static files were added, and a reliable and universal transition between pages was created. Two models were also implemented: the \"Portfolio\" model and the \"Blog\" model. I can add new blogs through the admin panel, which I also made myself, and the site will not break.\r\n\r\nIt is also very important that thanks to the Bootstrap library, the site can be used on any device, even on a phone.",
+      "issues": "The main problems of the project were the lack of knowledge in the bootstrap library, as well as the deployment of the site on hosting. Also, for the first time I came across the dynamic generation of html pages by id. You can observe this in the \"Blog\" tab.",
+      "solve": "In this project, I used the Django template language. This is a very convenient feature of the Django project, which allows me to use data from my project to form an html page. If I change anything in the admin panel or in the database, the HTML page will also change.\r\n\r\nI also managed to improve my frontend knowledge when I adapted the site for mobile devices. That's what I used the Bootstrap library for.",
+      "time_create": "2022-10-27T11:29:51Z"
+    }
+  },
+  {
+    "model": "portfolio.myproject",
+    "pk": 11,
+    "fields": {
+      "title": "Todo's webapp",
+      "slug": "todos-webapp",
+      "url": "",
+      "description": "This is a really interesting and useful project that will help you make your life easier. and sense of all of your opportunities and live that life that matters most to you. When you visit this site, you are greeted by parting words. To use this service, you must register, and if you have already been registered before, just login to your account.\r\n\r\nYou have the opportunity to create your own Todo. You can make descriptions and mark \"important\" so that you don't miss it for sure. After you complete your Todo, you can click the \"Complete\" button, and then in the \"Completed\" tab, you can observe all your completed Todos and their completion time. And if you think that you don't need the task, you can simply delete it.\r\n\r\nI really like this project and its design.",
+      "issues": "Main problems: create user authentication, hide functions for unauthorized users, make a form to create your own Todo, configure deletion, modification and completion of a certain Todo.",
+      "solve": "In order to do user authentication, I used Django authentication system. This is a really handy tool. In order to make certain site functions available only to authorized users, I used the @login_required decorator. I also made a form for adding Todo.",
+      "time_create": "2022-11-10T15:24:15Z"
+    }
+  },
+  {
+    "model": "portfolio.myproject",
+    "pk": 12,
+    "fields": {
+      "title": "Famous women",
+      "slug": "famous-women",
+      "url": "",
+      "description": "This is really the most interesting and difficult project dedicated to famous women at the moment. When you visit this site, you can meet historical celebrities. All women are sorted by category, so by clicking on a category, you can see all the celebrities who belong to it. I can add new women and categories through the admin panel, which I have also set up. You can login to the site if you already have an account, or register, but remember that your username must be unique, and the passwords must match. After that, you can add posts about famous women.\r\n\r\nSince there can really be a lot of posts, I decided to create a pagination. Now you can conveniently navigate through different pages.\r\n\r\nTo contact me, you have to go to the Feedback tab and fill in the required fields.",
+      "issues": "The main problems during the project were creating a basic template, creating models and links between them (women and categories). It was also decided to use class-based view and object-oriented programming, so it was necessary to create a base class. I needed to make a detailed configuration of the admin panel so that it was as convenient as possible. Accessing the database was inefficient, I had to optimize it.",
+      "solve": "To organize the connections between the models, I used a ManyToOne connection. This is a handy tool that Django provides. I know object-oriented programming very well, so I was comfortable using class-based view. To comply with the DRY principle (don't repeat yourself), I created a basic mixin and inherited it in each class. I used Django documentation to configure the admin panel. Using the debug toolbar, I found the shortcomings of the organization of work with the database and eliminated them with the help of greedy queries.",
+      "time_create": "2022-12-15T11:53:38Z"
+    }
+  },
+  {
+    "model": "portfolio.myproject",
+    "pk": 13,
+    "fields": {
+      "title": "My portfolio website",
+      "slug": "my-portfolio-website",
+      "url": "",
+      "description": "This is my portfolio project. I've been working on the design for a long time and it seems to me that it turned out very well. I suggest visiting all the pages of my site. By going to the \"Who am I?\" page you can find out information about me, find out why I chose Django and why you should choose me. If you go to the \"My projects\" page, you will learn about all my projects in web development, where each project will be described in detail. To contact me, click on the \"Contacts\" button and choose a convenient method of communication. And if you click on the text \"My portfolio\", then my github will open for you.\r\n\r\nAlso, this site is fully adapted for mobile devices. And for the convenience of moving through projects, I created a pagination.",
+      "issues": "The main problem was the design development and adaptation to mobile devices. For each project, it was necessary to make a slug so that the link to it was informative, and not just an id. It was also difficult to work with images. It was necessary to make automatic cropping of the image when it was added, create a photo slider and organize the connection of a certain photo with a certain project.",
+      "solve": "As always, I used the Bootstrap library to create frontend and adaptive layout of the site. In order for each project to have its own link, when creating the model, I added the slug field, which is automatically generated when writing the project name. I have defined the \"get_absolute_url\" method, which returns a link to the desired project. Since there can be a different number of photos for each project, I decided that I would create a separate ProjectImage model and link ManyToOne to the project model. In the ProjectImage model, I redefined the \"save\" method, which now can search added image to the desired size using the \"PIL\" and \"IO\" libraries.",
+      "time_create": "2023-01-01T21:51:21Z"
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 7,
+    "fields": {
+      "image": "photos/2022/12/31/2020_1",
+      "name": "2020",
+      "project": 9
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 8,
+    "fields": {
+      "image": "photos/2022/12/31/2020_2",
+      "name": "2020",
+      "project": 9
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 9,
+    "fields": {
+      "image": "photos/2022/12/31/2020_3",
+      "name": "2020-3",
+      "project": 9
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 10,
+    "fields": {
+      "image": "photos/2022/12/31/2020_4",
+      "name": "2020-4",
+      "project": 9
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 11,
+    "fields": {
+      "image": "photos/2022/12/31/personal_portfolio_1",
+      "name": "",
+      "project": 10
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 12,
+    "fields": {
+      "image": "photos/2022/12/31/personal_portfolio_2",
+      "name": "",
+      "project": 10
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 13,
+    "fields": {
+      "image": "photos/2022/12/31/personal_portfolio_3",
+      "name": "",
+      "project": 10
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 14,
+    "fields": {
+      "image": "photos/2022/12/31/personal_portfolio_4",
+      "name": "",
+      "project": 10
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 15,
+    "fields": {
+      "image": "photos/2023/01/01/todo_1",
+      "name": "",
+      "project": 11
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 16,
+    "fields": {
+      "image": "photos/2023/01/01/todo_2",
+      "name": "",
+      "project": 11
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 17,
+    "fields": {
+      "image": "photos/2023/01/01/todo_3",
+      "name": "",
+      "project": 11
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 19,
+    "fields": {
+      "image": "photos/2023/01/01/todo_5",
+      "name": "",
+      "project": 11
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 20,
+    "fields": {
+      "image": "photos/2023/01/01/todo_6",
+      "name": "",
+      "project": 11
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 21,
+    "fields": {
+      "image": "photos/2023/01/01/todo_7",
+      "name": "",
+      "project": 11
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 22,
+    "fields": {
+      "image": "photos/2023/01/01/woman_1",
+      "name": "",
+      "project": 12
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 23,
+    "fields": {
+      "image": "photos/2023/01/01/woman_2",
+      "name": "",
+      "project": 12
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 24,
+    "fields": {
+      "image": "photos/2023/01/01/woman_3",
+      "name": "",
+      "project": 12
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 25,
+    "fields": {
+      "image": "photos/2023/01/01/woman_4",
+      "name": "",
+      "project": 12
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 26,
+    "fields": {
+      "image": "photos/2023/01/01/woman_5",
+      "name": "",
+      "project": 12
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 27,
+    "fields": {
+      "image": "photos/2023/01/01/woman_6",
+      "name": "",
+      "project": 12
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 28,
+    "fields": {
+      "image": "photos/2023/01/01/woman_7",
+      "name": "",
+      "project": 12
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 29,
+    "fields": {
+      "image": "photos/2023/01/01/woman_8",
+      "name": "",
+      "project": 12
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 30,
+    "fields": {
+      "image": "photos/2023/01/01/woman_9",
+      "name": "",
+      "project": 12
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 31,
+    "fields": {
+      "image": "photos/2023/01/03/main_portfolio",
+      "name": "",
+      "project": 13
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 32,
+    "fields": {
+      "image": "photos/2023/01/02/main_portfolio_2",
+      "name": "",
+      "project": 13
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 33,
+    "fields": {
+      "image": "photos/2023/01/02/main_portfolio_4",
+      "name": "",
+      "project": 13
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 34,
+    "fields": {
+      "image": "photos/2023/01/02/main_portfolio_5",
+      "name": "",
+      "project": 13
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 35,
+    "fields": {
+      "image": "photos/2023/01/02/main_portfolio_6",
+      "name": "",
+      "project": 13
+    }
+  },
+  {
+    "model": "portfolio.projectimage",
+    "pk": 36,
+    "fields": {
+      "image": "photos/2023/01/02/main_portfolio_3",
+      "name": "",
+      "project": 13
+    }
+  },
+  {
+    "model": "portfolio.myskills",
+    "pk": 1,
+    "fields": {
+      "skill": "Python language"
+    }
+  },
+  {
+    "model": "portfolio.myskills",
+    "pk": 2,
+    "fields": {
+      "skill": "Object-oriented programming"
+    }
+  },
+  {
+    "model": "portfolio.myskills",
+    "pk": 3,
+    "fields": {
+      "skill": "Django Framework"
+    }
+  },
+  {
+    "model": "portfolio.myskills",
+    "pk": 4,
+    "fields": {
+      "skill": "Django Rest Framework"
+    }
+  },
+  {
+    "model": "portfolio.myskills",
+    "pk": 5,
+    "fields": {
+      "skill": "Bootstrap library"
+    }
+  },
+  {
+    "model": "portfolio.myskills",
+    "pk": 6,
+    "fields": {
+      "skill": "Back-end and Full-stack development"
+    }
+  }
+]

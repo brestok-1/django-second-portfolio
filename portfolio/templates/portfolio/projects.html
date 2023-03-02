@@ -33,8 +33,8 @@
                         <ul class="pagination justify-content-center">
                         {% if page_obj.has_previous %}
                             <li class="page-item"><a
-                                    class="page-link"
                                     href="{% if page_obj.has_previous %}?page={{ page_obj.previous_page_number }}{% endif %}"><span
+                                    class="page-link"
                                     class="color">Prev</span></a></li>
                             {% endif %}
                             {% for p in paginator.page_range %}
@@ -46,7 +46,7 @@
                             <li class="page-item"><a
                                     class="page-link "
                                     href="{% if page_obj.has_next %}?page={{ page_obj.next_page_number }}{% endif %}">Next</a></li>
-                                {% endif %}
+                            {% endif %}
                         </ul>
                     </div>
                 </div>
